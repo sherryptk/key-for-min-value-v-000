@@ -8,7 +8,7 @@ lowest = nil
   if name_hash == {}
     return nil
   end
-  
+
    name_hash.collect do |name, age|
      if age < lowest
        lowest = age
